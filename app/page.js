@@ -13,7 +13,7 @@ export default function Page() {
   }, []);
 
   const C = { bg: '#08070A', light: '#F2EDE3', gold: '#B8943E', muted: '#6B5A3E', deep: '#1A1614', wine: '#3D1F2B' };
-  const EB = 'https://www.eventbrite.com/e/secret-society-the-art-of-being-selective-tickets-1985661187063';
+  const EB = 'https://huglife.vercel.app/tickets';
 
   return (
     <div style={{background:C.bg,color:C.light,fontFamily:"'DM Sans',sans-serif",overflowX:'hidden'}}>
