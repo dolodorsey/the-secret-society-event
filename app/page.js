@@ -168,7 +168,7 @@ export default function Page() {
             {[
               ['📅','APRIL 10 & 11','Two Nights'],
               ['🕛','12AM – 5AM','After Midnight'],
-              ['📍','ATLANTA, GA','Location TBA'],
+              ['📍','ATLANTA, GA','Location The Gallery Complex'],
               ['👔','DRESS CODE','Strictly Enforced'],
             ].map(([icon,val,label],i) => (
               <div key={i} className={`r d${i+1}`} style={{padding:40,border:'1px solid rgba(184,148,62,.1)',background:'rgba(184,148,62,.02)'}}>
